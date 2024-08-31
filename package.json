@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/cachelite.git"
+    "url": "https://github.com/mohan-kumar-0/cachelite.git"
   },
   "keywords": [
     "cache",
@@ -52,5 +52,7 @@
   ],
   "author": "Mohan Kumar",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "cachelite": "file:"
+  }
 }
