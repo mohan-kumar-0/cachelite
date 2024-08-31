@@ -1,4 +1,4 @@
-const SimpleCache = require('cachelite');
+const SimpleCache = require('memcachelite');
 const cache = new SimpleCache();
 
 // Example 1: Basic caching

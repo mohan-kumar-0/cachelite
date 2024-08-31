@@ -1,7 +1,7 @@
 ```markdown
-# SimpleCache
+# MemCacheLite
 
-SimpleCache is a lightweight, in-memory caching module for Node.js, offering basic caching functionalities with TTL (Time-To-Live) support.
+MemCacheLite is a lightweight, in-memory caching module for Node.js, offering basic caching functionalities with TTL (Time-To-Live) support.
 
 ## Installation
 
@@ -10,7 +10,7 @@ You can install the package via npm:
 ### Bash
 
 ```bash
-npm install cachelite
+npm install memcachelite
 ```
 
 ## Features
@@ -63,7 +63,7 @@ Returns the number of items currently stored in the cache.
 ## Usage
 
 ```javascript
-const SimpleCache = require('cachelite');
+const SimpleCache = require('memcachelite');
 const cache = new SimpleCache();
 
 // Set a value with no TTL
